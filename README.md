@@ -24,12 +24,6 @@
 
 ---
 
-## 📈 GitHub İstatistiklerim
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB&show_icons=true&theme=tokyonight&hide_border=true" width="450" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB&layout=compact&theme=tokyonight&hide_border=true" width="370" />
-</p>
 
 ---
 
@@ -74,21 +68,3 @@
 | 🧠 Veri Mimarisi | PostgreSQL, Redis, BigQuery, gerçek zamanlı analitik |
 | 🚀 Dijital Strateji | SEO, reklam, growth hacking |
 | 📱 Mobil | Flutter, React Native, Swift |
-
----
-
-## 🧪 Kod Showcase (Performans Optimizasyon Modülü)
-
-```javascript
-export class PerformanceOptimizer {
-    constructor(config = {}) {
-        this.metrics = { FCP: null, LCP: null, CLS: null, TTI: null, TBT: null };
-        this.thresholds = { FCP: 1800, LCP: 2500, CLS: 0.1, TTI: 3800, TBT: 200, ...config.thresholds };
-        this.init();
-    }
-    init() {
-        if ('PerformanceObserver' in window) {
-            this.registerFCPObserver();
-        }
-    }
-}
