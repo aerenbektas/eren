@@ -7,13 +7,6 @@
 
 ---
 
-<!-- Profil Fotoğrafı -->
-<p align="center">
-  <img src="YOUR_IMAGE_URL" alt="profile" width="220" style="border-radius: 50%; box-shadow: 0 0 20px #00eaff;">
-</p>
-
----
-
 ## ✨ Hakkımda
 
 - 🔥 Full-stack development, cloud, e-commerce ve growth odaklı projeler geliştiriyorum.  
